@@ -26,8 +26,16 @@
 }
 
 .image {
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 1px 1px 4px 1px black;
+}
+
+img {
+  border-radius: 20px;
+}
+
+button {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
