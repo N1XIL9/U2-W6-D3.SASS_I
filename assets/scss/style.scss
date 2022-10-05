@@ -1,6 +1,3 @@
-.container {
-    height: 100vh;
-}
 $colorePRIMO: rgb(51, 227, 154);
 $coloreSECONDO: rgb(237, 102, 240);
 
@@ -10,5 +7,29 @@ $coloreSECONDO: rgb(237, 102, 240);
 
 .btn-secondary {
     background-color: $coloreSECONDO;
+}
+
+.container {
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.contenitore-img {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 200px;
+    height: 300px;
+}
+
+.image {
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px black;
 }
 
