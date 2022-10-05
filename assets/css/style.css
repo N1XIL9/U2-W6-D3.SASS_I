@@ -1,5 +1,6 @@
-body {
-  background-color: coral;
+.container {
+  width: 100%;
+  height: 100%;
 }
 
 .btn-primary {
@@ -9,5 +10,3 @@ body {
 .btn-secondary {
   background-color: rgb(237, 102, 240);
 }
-
-/*# sourceMappingURL=style.css.map */
