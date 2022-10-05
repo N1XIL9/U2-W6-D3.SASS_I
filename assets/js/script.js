@@ -8,7 +8,7 @@ function colore() {
 // PRIMA OPZIONE
 function image() {
   let imgGenerate = document.querySelector(".image");
-  imgGenerate.innerHTML += `<img src="https://picsum.photos/200/300/?random&t=${new Date().getTime()}">`;
+  imgGenerate.innerHTML = `<img src="https://picsum.photos/200/300/?random&t=${new Date().getTime()}">`;
 }
 
 // SECONDA OPZIONE
